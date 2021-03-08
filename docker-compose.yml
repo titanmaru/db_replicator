@@ -1,11 +1,11 @@
 version: "3.9"
 
 services:
-  # source_db:
-  #   image: "mcr.microsoft.com/mssql/server"
-  #   environment:
-  #     SA_PASSWORD: "Your_password123"
-  #     ACCEPT_EULA: "Y"
+  source_db:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: "Your_password123"
+      ACCEPT_EULA: "Y"
   db:
     image: postgres
     environment:
