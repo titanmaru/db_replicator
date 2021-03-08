@@ -81,6 +81,12 @@ DATABASES = {
         'PASSWORD': 'postgres',
         'HOST': 'db',
         'PORT': 5432,
+    },
+    'master': {
+        'NAME': 'mssql',
+        'ENGINE': 'sql_server.pyodbc',
+        'USER': 'mysql_user',
+        'PASSWORD': 'Your_password123'
     }
 }
 
